@@ -126,3 +126,42 @@ body {
 .month span {
     font-size: 1.8rem;
 }
+
+
+
+@media screen and (max-width: 768px) {
+    .digital {
+        width: 93vw;
+        height: 36vh;
+        font-size: 2rem;
+    }
+
+    .day span {
+        font-size: 1rem;
+    }
+
+    .clock {
+        font-size: 4rem;
+    }
+
+
+    .month {
+        margin-top: 45px;
+        padding: 0;
+    }
+
+    .month span {
+        font-size: 12px;
+        padding: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .digital {
+        height: 64vh;
+    }
+
+    .month span {
+        font-size: 14px;
+    }
+}
